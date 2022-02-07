@@ -22,7 +22,7 @@ to the [Basic Usage](#basic-usage) section and get going!
 Clone repository anywhere:
 
 ```sh
-$ git clone https://github.com/franckverrot/terraform-provider-stripe.git
+$ git clone https://github.com/samber/terraform-provider-stripe.git
 ```
 
 Enter the provider directory and build the provider
@@ -64,8 +64,8 @@ The example below demonstrates the following operations:
 terraform {
   required_providers {
     stripe = {
-      source = "franckverrot/stripe"
-      version = "1.8.0"
+      source = "samber/stripe"
+      version = "1.14.0"
     }
   }
 }

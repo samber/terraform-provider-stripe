@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     stripe = {
-      source = "franckverrot/stripe"
-      version = "1.7.0"
+      source  = "samber/stripe"
+      version = "1.14.0"
     }
   }
 }
